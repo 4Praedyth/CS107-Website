@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lungu lab 15</title>
+<style>
+</style>
+</head>
+<body>
+    <a href="../index.html">
+        <img src="../Images/home.png" alt="Homepage" width="75" height="75">
+    </a>
+    <a href="default.html">
+        <img src="../Images/labs.png" alt="Labs" width="75" height="75">
+    </a><br><br>
+<script>
+    
+    let age = parseInt(prompt("Enter your age: "));
+    
+    if(age >= 16 && age < 18)
+        document.write("Given your age, you can only drive right now!")
+    else if(age >= 18 && age < 21)
+        document.write("You can Drive and Vote!")
+    else if (age >= 21)
+        document.write("You can drive, vote, and have your own insurance!")
+    else
+        document.write("You are too young!")
+    
+    
+</script>
+</body>
+</html>

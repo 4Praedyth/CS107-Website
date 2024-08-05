@@ -1,0 +1,61 @@
+.body{
+    background-color:lightgray;
+    border: 3px solid blue;
+}
+.div1{
+    text-align:left;
+}
+.div2{
+    text-align:center;
+}
+.divVanilla{
+    border-style:dashed;
+    background: azure;
+}
+.divMint{
+    border-style:groove;
+    background: greenyellow;
+}
+.divOreo{
+    border-style:solid;
+    background: dimgray;
+}
+.divStrawberry{
+    border-style:double;
+    background: pink;
+}
+.vanilla{
+    color: gray;
+    text-align:center;
+}
+.vanillaHeading{
+    text-align: left;
+    color:darkorange
+}
+.oreo{
+    color: white;
+    text-align:center;
+}
+.oreoHeading{
+    text-align: left;
+    color:aliceblue;
+}
+.mint{
+    color: forestgreen;
+    text-align:center;
+}
+.mintHeading{
+    text-align: left;
+    color:blueviolet;
+}
+.strawberry{
+    color: red;
+    text-align:center;
+}
+.strawberryHeading{
+    text-align: left;
+    color:darkslateblue;
+}
+.image{
+    text-align:left;
+}

@@ -1,0 +1,54 @@
+<!-- Lab #2 is about using different elements and entities on your page to see and understand how they work -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lungu Lab 2</title>
+</head>
+<body>
+    <a href="../index.html">
+        <img src="../Images/home.png" alt="Homepage" width="75" height="75">
+    </a><br>
+    <a href="default.html">Back to Labs</a><br>
+<h1>Lesson 3 Lab 2</h1>
+   
+<!-- This Paragraph uses Break(br), heading(h), paragraph(p), bold(b), horizontal rule(hr) elements and Less than (lt) and Greater than (gt) entities-->
+<h2>Fun Fact:</h2>
+    <hr>
+    <p>You can <b>BOLD</b> in HTML using tags like &lt;b&gt;text&lt;/b&gt;</p>
+<hr><br>
+
+<!-- This Paragraph uses Break(br), heading(h), paragraph(p), horizontal rule(hr), and italic(i) elements and Less than (lt) and Greater than (gt) entities-->    
+<h2>Fun Fact #2:</h2>
+    <hr>
+    <p>You can <i>ITALICIZE</i> in HTML using tags like &lt;i&gt;text&lt;/i&gt;</p>
+<hr><br>
+
+<!-- This Paragraph uses Break(br), heading(h), paragraph(p), small(small), mark(mark), code(code) and horizontal rule(hr) elements and no break space(nbsp) entities-->    
+<h2>Fun Fact #3:</h2>
+    <hr>
+    <p>You can do other cool features in HTML like <small>small</small>, <mark>mark</mark>,&nbsp;and silly other things if you need to print code like:
+        <code>
+            <br>
+            <br>public class TowerOfHanoi {
+    
+    <br>public static void solveHanoi(int n, String start, String end, String middle){
+        <br>if(n == 1)
+            <br>System.out.println("Move 1 disk from " + start + " to " + end);
+        <br>else{
+            <br>solveHanoi(n-1, start, middle, end);
+            <br>solveHanoi(1, start, end, middle);
+            <br>solveHanoi(n-1, middle, end, start);
+        <br>}
+    <br>}
+
+    <br>public static void main(String[] args){
+        <br>solveHanoi(3, "A", "C", "B");
+    <br>}
+<br>}
+
+        </code>
+  </p>
+<hr>
+    
+</body>
+</html>

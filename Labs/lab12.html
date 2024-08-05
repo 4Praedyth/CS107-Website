@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lungu lab 12</title>
+<style>
+    body{
+        background-color: darkgray;
+    }
+</style>
+</head>
+<body>
+    <a href="../index.html">
+        <img src="../Images/home.png" alt="Homepage" width="75" height="75">
+    </a>
+    <a href="default.html">
+        <img src="../Images/labs.png" alt="Labs" width="75" height="75">
+    </a><br><br>
+<script>
+    
+    let num1 = parseInt(prompt("Enter a first number: "));
+    let num2 = parseInt(prompt("Enter a second number: "));
+    let num3 = parseInt(prompt("Enter a third number: "));
+    let num4 = parseInt(prompt("Enter a fourth number: "));
+    
+    let num5 = num1 + num2;
+    let num6 = num3 * num4;
+    let num7 = num3 ** 3;
+    let num8 = num4 / num1;
+    let num9 = num2 % num1;
+    
+    document.write("The sum of " + num1 + " and " + num2 + " is: " + num5);
+    document.write('<br>');
+                   
+    document.write(num3 + " multiplied with " + num4 + " is: " + num6);
+    document.write('<br>');
+    
+    document.write(num3 + " to the power of 3 is: " + num7);
+    document.write('<br>');
+    
+    document.write(num4 + " divided by " + num1 + " is: " + num8);
+    document.write('<br>');
+    
+    document.write(num2 + " divided by " + num1 + " has a remainder of: " +num9);
+    
+    
+</script>
+</body>
+</html>

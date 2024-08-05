@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lungu lab 18</title>
+<style>
+</style>
+</head>
+<body>
+    <a href="../index.html">
+        <img src="../Images/home.png" alt="Homepage" width="75" height="75">
+    </a>
+    <a href="default.html">
+        <img src="../Images/labs.png" alt="Labs" width="75" height="75">
+    </a><br><br>
+    
+    <button onclick="alert_function1()">
+        Event Handling
+    </button><br><br>
+    
+    <button onclick="alert_function2()">
+        Welcome
+    </button>
+    
+    
+    
+    
+    <script>
+        function alert_function1(){
+            alert('Welcome to Event Handling!');
+        }
+        
+        function alert_function2(){
+            let name = prompt("Enter your name: ");
+            
+            alert("Hi, " + name);
+            document.write("Hi, " + name);
+        }
+    
+</script>
+</body>
+</html>
